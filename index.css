@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    color: #2B283A;
+    width: 332px;
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    letter-spacing: -2px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: #10B981;
+}
+
+h2 {
+    color: #6B7280;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    padding: 52px 52px;
+    background-color: #ECFDF5;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    text-align: right;
+}
+
+label {
+    color: #273549;
+    margin-right: 3px;
+    
+}
+input {
+    color: #10B981;
+    padding: 5px 10px;
+    margin: 20px 11px 0 0;
+    border-radius: 4px;
+    border: 1px solid #10B981;
+    background-color: white;
+}
+
+button {
+    font-size: 16px;
+    color: white;
+    padding: 12px 17px;
+    margin: 20px 0 0;
+    border-radius: 7px;
+    border: none;
+    background-color: #10B981;
+}
+
+.displayField {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-top: 1px solid #D5D4D8;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.display {
+    width: 211px;
+    height: 36px;
+    color: #5DEF92;
+    background-color: #273549;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+#clipboard {
+    color: #6B7280;
+    margin-top: 10px;
+    font-size: 13px;
+}

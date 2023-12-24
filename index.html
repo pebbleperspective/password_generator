@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gábor Parlag » g.parlag@gmail.com">
+    <meta name="description" content="Password generator - written as a solo project at Scrimba.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Password generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <span>random password</span></h1>
+        <h2>Never use an insecure password again.</h2>
+        <form action="">
+            <div>
+                <label>Password length:</label>
+                <input type="number" min="8" max="15" id="pwd-length" value="8">
+            </div>
+            <div>
+                <div>
+                    <label for="">Use symbols:</label>
+                    <input type="checkbox" id="symbols" checked>
+                </div>
+                <div>
+                    <label for="">Use numbers:</label>
+                    <input type="checkbox" id="numbers" checked>
+                </div>
+            </div>
+        </form>
+        <button id="generate-btn" onclick="displayTwoPwds()">Generate passwords</button>
+        <div class="displayField">
+            <div class="display" id="pwd-one"></div>
+            <div class="display" id="pwd-two"></div>
+        </div>
+        <p id="clipboard"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
